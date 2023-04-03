@@ -1,0 +1,425 @@
+<modulos>
+    <modulo id="1">
+        <ciclo>ASIR</ciclo>
+        <curso>1</curso>
+        <codigo>369</codigo>
+        <siglas>IMSO</siglas>
+        <nombre>Implantación de sistemas operativos</nombre>
+        <horasTotales>200</horasTotales>
+        <horasSemanales>6</horasSemanales>
+    </modulo>
+    <modulo id="2">
+        <ciclo>ASIR</ciclo>
+        <curso>1</curso>
+        <codigo>370</codigo>
+        <siglas>PARE</siglas>
+        <nombre>Planificación y administración de redes</nombre>
+        <horasTotales>200</horasTotales>
+        <horasSemanales>6</horasSemanales>
+    </modulo>
+    <modulo id="3">
+        <ciclo>ASIR</ciclo>
+        <curso>1</curso>
+        <codigo>371</codigo>
+        <siglas>FUHA</siglas>
+        <nombre>Fundamentos de hardware</nombre>
+        <horasTotales>120</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="4">
+        <ciclo>ASIR</ciclo>
+        <curso>1</curso>
+        <codigo>372</codigo>
+        <siglas>GEBD</siglas>
+        <nombre>Gestión de bases de datos</nombre>
+        <horasTotales>200</horasTotales>
+        <horasSemanales>6</horasSemanales>
+    </modulo>
+    <modulo id="5">
+        <ciclo>ASIR</ciclo>
+        <curso>1</curso>
+        <codigo>373</codigo>
+        <siglas>LMGI</siglas>
+        <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+        <horasTotales>120</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="6">
+        <ciclo>ASIR</ciclo>
+        <curso>1</curso>
+        <codigo>1001</codigo>
+        <siglas>ING1</siglas>
+        <nombre>Inglés I</nombre>
+        <horasTotales>60</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="7">
+        <ciclo>ASIR</ciclo>
+        <curso>1</curso>
+        <codigo>381</codigo>
+        <siglas>EMIE</siglas>
+        <nombre>Empresa e iniciativa emprendedora</nombre>
+        <horasTotales>60</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="8">
+        <ciclo>ASIR</ciclo>
+        <curso>2</curso>
+        <codigo>374</codigo>
+        <siglas>ADSO</siglas>
+        <nombre>Administración de sistemas operativos</nombre>
+        <horasTotales>150</horasTotales>
+        <horasSemanales>7</horasSemanales>
+    </modulo>
+    <modulo id="9">
+        <ciclo>ASIR</ciclo>
+        <curso>2</curso>
+        <codigo>375</codigo>
+        <siglas>SERI</siglas>
+        <nombre>Servicios de red e Internet</nombre>
+        <horasTotales>130</horasTotales>
+        <horasSemanales>6</horasSemanales>
+    </modulo>
+    <modulo id="10">
+        <ciclo>ASIR</ciclo>
+        <curso>2</curso>
+        <codigo>376</codigo>
+        <siglas>IMAW</siglas>
+        <nombre>Implantación de aplicaciones web</nombre>
+        <horasTotales>110</horasTotales>
+        <horasSemanales>5</horasSemanales>
+    </modulo>
+    <modulo id="11">
+        <ciclo>ASIR</ciclo>
+        <curso>2</curso>
+        <codigo>377</codigo>
+        <siglas>ADBD</siglas>
+        <nombre>Administración de sistemas gestores de bases de datos</nombre>
+        <horasTotales>70</horasTotales>
+        <horasSemanales>3</horasSemanales>
+    </modulo>
+    <modulo id="12">
+        <ciclo>ASIR</ciclo>
+        <curso>2</curso>
+        <codigo>378</codigo>
+        <siglas>SEAD</siglas>
+        <nombre>Seguridad y alta disponibilidad</nombre>
+        <horasTotales>110</horasTotales>
+        <horasSemanales>5</horasSemanales>
+    </modulo>
+    <modulo id="13">
+        <ciclo>ASIR</ciclo>
+        <curso>2</curso>
+        <codigo>380</codigo>
+        <siglas>FOLA</siglas>
+        <nombre>Formación y orientación laboral</nombre>
+        <horasTotales>90</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="14">
+        <ciclo>ASIR</ciclo>
+        <curso>2</curso>
+        <codigo>379</codigo>
+        <siglas>PROY</siglas>
+        <nombre>Proyecto de administración de sistemas informáticos en red</nombre>
+        <horasTotales>30</horasTotales>
+        <horasSemanales>0</horasSemanales>
+    </modulo>
+    <modulo id="15">
+        <ciclo>ASIR</ciclo>
+        <curso>2</curso>
+        <codigo>382</codigo>
+        <siglas>FCET</siglas>
+        <nombre>Formación en centros de trabajo</nombre>
+        <horasTotales>350</horasTotales>
+        <horasSemanales>0</horasSemanales>
+    </modulo>
+    <modulo id="16">
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <codigo>483</codigo>
+        <siglas>SIIN</siglas>
+        <nombre>Sistemas informáticos</nombre>
+        <horasTotales>200</horasTotales>
+        <horasSemanales>6</horasSemanales>
+    </modulo>
+    <modulo id="17">
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <codigo>484</codigo>
+        <siglas>BADA</siglas>
+        <nombre>Bases de datos</nombre>
+        <horasTotales>160</horasTotales>
+        <horasSemanales>5</horasSemanales>
+    </modulo>
+    <modulo id="18">
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <codigo>485</codigo>
+        <siglas>PROG</siglas>
+        <nombre>Programación</nombre>
+        <horasTotales>260</horasTotales>
+        <horasSemanales>8</horasSemanales>
+    </modulo>
+    <modulo id="19">
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <codigo>373</codigo>
+        <siglas>LMGI</siglas>
+        <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+        <horasTotales>120</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="20">
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <codigo>487</codigo>
+        <siglas>ENDE</siglas>
+        <nombre>Entornos de desarrollo</nombre>
+        <horasTotales>100</horasTotales>
+        <horasSemanales>3</horasSemanales>
+    </modulo>
+    <modulo id="21">
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <codigo>494</codigo>
+        <siglas>EMIE</siglas>
+        <nombre>Empresa e iniciativa emprendedora</nombre>
+        <horasTotales>60</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="22">
+        <ciclo>DAM</ciclo>
+        <curso>1</curso>
+        <codigo>1001</codigo>
+        <siglas>ING1</siglas>
+        <nombre>Inglés I</nombre>
+        <horasTotales>60</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="23">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>486</codigo>
+        <siglas>ACDA</siglas>
+        <nombre>Acceso a datos</nombre>
+        <horasTotales>90</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="24">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>488</codigo>
+        <siglas>DEIN</siglas>
+        <nombre>Desarrollo de interfaces</nombre>
+        <horasTotales>130</horasTotales>
+        <horasSemanales>6</horasSemanales>
+    </modulo>
+    <modulo id="25">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>489</codigo>
+        <siglas>PMDM</siglas>
+        <nombre>Programación multimedia y dispositivos móviles</nombre>
+        <horasTotales>70</horasTotales>
+        <horasSemanales>3</horasSemanales>
+    </modulo>
+    <modulo id="26">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>490</codigo>
+        <siglas>PSEP</siglas>
+        <nombre>Programación de servicios y procesos</nombre>
+        <horasTotales>40</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="27">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>491</codigo>
+        <siglas>SGEM</siglas>
+        <nombre>Sistemas de gestión empresarial</nombre>
+        <horasTotales>110</horasTotales>
+        <horasSemanales>5</horasSemanales>
+    </modulo>
+    <modulo id="28">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>493</codigo>
+        <siglas>FOLA</siglas>
+        <nombre>Formación y orientación laboral</nombre>
+        <horasTotales>90</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="29">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>1002</codigo>
+        <siglas>ING2</siglas>
+        <nombre>Inglés II</nombre>
+        <horasTotales>40</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="30">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>1000</codigo>
+        <siglas>DEWE</siglas>
+        <nombre>Desarrollo web</nombre>
+        <horasTotales>90</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="31">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>492</codigo>
+        <siglas>PROY</siglas>
+        <nombre>Proyecto de desarrollo de aplicaciones multiplataforma</nombre>
+        <horasTotales>30</horasTotales>
+        <horasSemanales>0</horasSemanales>
+    </modulo>
+    <modulo id="32">
+        <ciclo>DAM</ciclo>
+        <curso>2</curso>
+        <codigo>495</codigo>
+        <siglas>FOLA</siglas>
+        <nombre>Formación en centros de trabajo</nombre>
+        <horasTotales>350</horasTotales>
+        <horasSemanales>0</horasSemanales>
+    </modulo>
+    <modulo id="33">
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <codigo>483</codigo>
+        <siglas>SIIN</siglas>
+        <nombre>Sistemas informáticos</nombre>
+        <horasTotales>200</horasTotales>
+        <horasSemanales>6</horasSemanales>
+    </modulo>
+    <modulo id="34">
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <codigo>484</codigo>
+        <siglas>BADA</siglas>
+        <nombre>Bases de datos</nombre>
+        <horasTotales>160</horasTotales>
+        <horasSemanales>5</horasSemanales>
+    </modulo>
+    <modulo id="35">
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <codigo>485</codigo>
+        <siglas>PROG</siglas>
+        <nombre>Programación</nombre>
+        <horasTotales>260</horasTotales>
+        <horasSemanales>8</horasSemanales>
+    </modulo>
+    <modulo id="36">
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <codigo>373</codigo>
+        <siglas>LMGI</siglas>
+        <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+        <horasTotales>120</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="37">
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <codigo>487</codigo>
+        <siglas>ENDE</siglas>
+        <nombre>Entornos de desarrollo</nombre>
+        <horasTotales>100</horasTotales>
+        <horasSemanales>3</horasSemanales>
+    </modulo>
+    <modulo id="38">
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <codigo>618</codigo>
+        <siglas>EMIE</siglas>
+        <nombre>Empresa e iniciativa emprendedora</nombre>
+        <horasTotales>60</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="39">
+        <ciclo>DAW</ciclo>
+        <curso>1</curso>
+        <codigo>1001</codigo>
+        <siglas>ING1</siglas>
+        <nombre>Inglés I</nombre>
+        <horasTotales>60</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="40">
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <codigo>612</codigo>
+        <siglas>DWEC</siglas>
+        <nombre>Desarrollo web en entorno cliente</nombre>
+        <horasTotales>150</horasTotales>
+        <horasSemanales>7</horasSemanales>
+    </modulo>
+    <modulo id="41">
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <codigo>613</codigo>
+        <siglas>DWES</siglas>
+        <nombre>Desarrollo web en entorno servidor</nombre>
+        <horasTotales>150</horasTotales>
+        <horasSemanales>7</horasSemanales>
+    </modulo>
+    <modulo id="42">
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <codigo>614</codigo>
+        <siglas>DAWE</siglas>
+        <nombre>Despliegue de aplicaciones web</nombre>
+        <horasTotales>90</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="43">
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <codigo>615</codigo>
+        <siglas>DIWE</siglas>
+        <nombre>Diseño de interfaces web</nombre>
+        <horasTotales>130</horasTotales>
+        <horasSemanales>6</horasSemanales>
+    </modulo>
+    <modulo id="44">
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <codigo>617</codigo>
+        <siglas>FOLA</siglas>
+        <nombre>Formación y orientación laboral</nombre>
+        <horasTotales>90</horasTotales>
+        <horasSemanales>4</horasSemanales>
+    </modulo>
+    <modulo id="45">
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <codigo>1002</codigo>
+        <siglas>ING2</siglas>
+        <nombre>Inglés II</nombre>
+        <horasTotales>40</horasTotales>
+        <horasSemanales>2</horasSemanales>
+    </modulo>
+    <modulo id="46">
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <codigo>616</codigo>
+        <siglas>PROY</siglas>
+        <nombre>Proyecto de desarrollo de aplicaciones web</nombre>
+        <horasTotales>30</horasTotales>
+        <horasSemanales>0</horasSemanales>
+    </modulo>
+    <modulo id="47">
+        <ciclo>DAW</ciclo>
+        <curso>2</curso>
+        <codigo>619</codigo>
+        <siglas>FCET</siglas>
+        <nombre>Formación en centros de trabajo</nombre>
+        <horasTotales>360</horasTotales>
+        <horasSemanales>0</horasSemanales>
+    </modulo>
+</modulos>

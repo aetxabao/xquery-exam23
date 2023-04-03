@@ -1,0 +1,46 @@
+xquery version "3.1";
+
+<html>
+    <head>
+        <style>
+            table, th, td {{ border: 1px solid black; }}
+        </style>
+    </head>
+    <body>
+{
+    let $ciclo := "DAW"
+    let $curso := "1"
+    return
+        <h1>Suspensos  <br/> estudiantes <br/> {$ciclo}-{$curso}</h1>
+}
+        <table>
+            <tr>
+                <th>Apellidos</th>
+                <th>Nombre</th>
+                <th>Suspensos</th>
+            </tr>
+{
+    let $ciclo := "DAW"
+    let $curso := "1"
+    for $nota in doc("/db/exam23/notas.xml")//nota
+    let $idEstudiante := data($nota/idEstudiante)
+    let $apellidosEstudiante := doc("/db/exam23/estudiantes.xml")//estudiante[@id=$idEstudiante]/apellidos
+    let $nombreEstudiante := doc("/db/exam23/estudiantes.xml")//estudiante[@id=$idEstudiante]/nombre
+    let $valor := data($nota/valor)
+    let $idModulo := data($nota/idModulo)
+    let $cicloNota := data(doc("/db/exam23/modulos.xml")//modulo[@id=$idModulo]/ciclo)
+    let $cursoNota := data(doc("/db/exam23/modulos.xml")//modulo[@id=$idModulo]/curso)
+    where $cicloNota = $ciclo and $cursoNota = $curso and $valor < 5 
+    group by $apellidosEstudiante, $nombreEstudiante
+    let $n := count($nota)
+    order by $apellidosEstudiante, $nombreEstudiante
+    return 
+            <tr>
+                <td>{$apellidosEstudiante}</td>
+                <td>{$nombreEstudiante}</td>
+                <td>{$n}</td>
+            </tr>
+}
+        </table>
+    </body>
+</html>

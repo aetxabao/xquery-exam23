@@ -1,0 +1,48 @@
+xquery version "3.1";
+
+<html>
+    <head>
+        <style>
+            table, th, td {{ border: 1px solid black; }}
+        </style>
+    </head>
+    <body>
+{
+    let $ciclo := "DAM"
+    let $curso := "1"
+    return
+        <h1>Mejores estudiantes <br/> de {$ciclo}-{$curso}</h1>
+}
+        <table>
+            <tr>
+                <th>Módulo</th>
+                <th>Nota</th>
+                <th>Estudiantes</th>
+            </tr>
+{
+    let $ciclo := "DAM"
+    let $curso := "1"
+    for $modulo in doc("/db/exam23/modulos.xml")//modulo
+    let $idModulo := data($modulo/@id)
+    let $siglasModulo := data($modulo/siglas)
+    where $modulo/ciclo = $ciclo and $modulo/curso = $curso
+    let $max := round(max(doc("/db/exam23/notas.xml")//nota[idModulo=$idModulo]/valor),1)
+    let $idEstudiantes := data(doc("/db/exam23/notas.xml")//nota[idModulo=$idModulo][valor=$max]/idEstudiante)
+    order by $max descending
+    return 
+            <tr>
+                <td>{$siglasModulo}</td>
+                <td>{$max}</td>
+                <td>
+    {
+        for $idEstudiante in $idEstudiantes
+        let $nombreEstudiante := data(doc("/db/exam23/estudiantes.xml")//estudiante[@id=$idEstudiante]/nombre)
+        return
+            $nombreEstudiante
+    }
+                </td>
+            </tr>
+}
+        </table>
+    </body>
+</html>

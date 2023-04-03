@@ -1,0 +1,17 @@
+<docentes>
+<docente id="1"><nombre>Aitor</nombre><apellidos>García</apellidos><fechaInicio>2008-09-01</fechaInicio></docente>
+<docente id="2"><nombre>Laura</nombre><apellidos>Larralde</apellidos><fechaInicio>2021-09-01</fechaInicio></docente>
+<docente id="3"><nombre>Mikel</nombre><apellidos>Puy</apellidos><fechaInicio>2013-09-01</fechaInicio></docente>
+<docente id="4"><nombre>Santi</nombre><apellidos>Eseberri</apellidos><fechaInicio>2022-09-01</fechaInicio></docente>
+<docente id="5"><nombre>Miren</nombre><apellidos>Iturralde</apellidos><fechaInicio>2011-09-01</fechaInicio></docente>
+<docente id="6"><nombre>Idoia</nombre><apellidos>Nuñez</apellidos><fechaInicio>2005-09-01</fechaInicio></docente>
+<docente id="7"><nombre>Ion</nombre><apellidos>Perez</apellidos><fechaInicio>2007-09-01</fechaInicio></docente>
+<docente id="8"><nombre>Karmen</nombre><apellidos>Ruiz</apellidos><fechaInicio>2008-09-01</fechaInicio></docente>
+<docente id="9"><nombre>Iñigo</nombre><apellidos>Lizaso</apellidos><fechaInicio>2008-09-01</fechaInicio></docente>
+<docente id="10"><nombre>Maite</nombre><apellidos>Santesteban</apellidos><fechaInicio>2009-09-01</fechaInicio></docente>
+<docente id="11"><nombre>Silvia</nombre><apellidos>Soto</apellidos><fechaInicio>2014-09-01</fechaInicio></docente>
+<docente id="12"><nombre>Ibai</nombre><apellidos>Elizalde</apellidos><fechaInicio>2008-09-01</fechaInicio></docente>
+<docente id="13"><nombre>Nerea</nombre><apellidos>Zubieta</apellidos><fechaInicio>2009-09-01</fechaInicio></docente>
+<docente id="14"><nombre>Andrea</nombre><apellidos>Ibaialde</apellidos><fechaInicio>2014-09-01</fechaInicio></docente>
+<docente id="15"><nombre>Patxi</nombre><apellidos>Aldekoa</apellidos><fechaInicio>2013-09-01</fechaInicio></docente>
+</docentes>

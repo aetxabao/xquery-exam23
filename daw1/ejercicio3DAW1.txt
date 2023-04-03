@@ -1,0 +1,27 @@
+xquery version "3.1";
+
+<html>
+    <head>
+        <style>
+            table, th, td {{ border: 1px solid black; }}
+        </style>
+    </head>
+    <body>
+{
+    let $ciclo := "DAW"
+    let $curso := "1"
+    return
+        <h1>Medias de los modulos <br/> de {$ciclo}-{$curso}</h1>
+}
+        <table>
+            <tr>
+                <th>Modulo</th>
+                <th>Profesor</th>
+                <th>Media</th>
+            </tr>
+{
+    (: TODO: ejercicio3 :)
+}
+        </table>
+    </body>
+</html>

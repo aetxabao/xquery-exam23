@@ -1,0 +1,44 @@
+xquery version "3.1";
+
+<html>
+    <head>
+        <style>
+            table, th, td {{ border: 1px solid black; }}
+        </style>
+    </head>
+    <body>
+{
+    let $ciclo := "DAW"
+    let $curso := "1"
+    return
+        <h1>Medias de los modulos <br/> de {$ciclo}-{$curso}</h1>
+}
+        <table>
+            <tr>
+                <th>Modulo</th>
+                <th>Profesor</th>
+                <th>Media</th>
+            </tr>
+{
+    let $ciclo := "DAW"
+    let $curso := "1"
+    for $modulo in doc("/db/exam23/modulos.xml")//modulo
+    let $idModulo := data($modulo/@id)
+    let $siglasModulo := data($modulo/siglas)
+    let $idDocente := data(doc("/db/exam23/imparte.xml")//relacion[idModulo=$idModulo]/idDocente)
+    let $nombreDocente := data(doc("/db/exam23/docentes.xml")//docente[@id=$idDocente]/nombre)
+    let $apellidosDocente := data(doc("/db/exam23/docentes.xml")//docente[@id=$idDocente]/apellidos)
+    let $docente := concat($nombreDocente, " ", $apellidosDocente)
+    let $media := round(avg(doc("/db/exam23/notas.xml")//nota[idModulo=$idModulo]/valor),1)
+    where $modulo/ciclo = $ciclo and $modulo/curso = $curso
+    order by $siglasModulo
+    return 
+            <tr>
+                <td>{$siglasModulo}</td>
+                <td>{$docente}</td>
+                <td>{$media}</td>
+            </tr>
+}
+        </table>
+    </body>
+</html>

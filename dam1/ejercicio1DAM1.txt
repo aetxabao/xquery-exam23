@@ -1,0 +1,29 @@
+xquery version "3.1";
+
+<html>
+    <head>
+        <style>
+            table, th, td {{ border: 1px solid black; }}
+        </style>
+    </head>
+    <body>
+{
+    let $nombreEstudiante := "Noah"
+    let $apellidosEstudiante := "York"
+    let $estudiante :=concat($nombreEstudiante, " ", $apellidosEstudiante)
+    return
+        <h1>Notas de <br/> {$estudiante}</h1>
+}
+        <table>
+            <tr>
+                <th>Módulo</th>
+                <th>Media</th>
+                <th>Nota</th>
+                <th>Dif</th>
+            </tr>
+{
+    (: TODO: ejercicio1 :)	
+}
+        </table>
+    </body>
+</html>

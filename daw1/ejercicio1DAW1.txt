@@ -1,0 +1,25 @@
+xquery version "3.1";
+
+<html>
+    <head>
+        <style>
+            table, th, td {{ border: 1px solid black; }}
+        </style>
+    </head>
+    <body>
+{
+    let $siglasModulo := "LMGI"
+    return
+        <h1>Distribución  <br/> notas {$siglasModulo}</h1>
+}
+        <table>
+            <tr>
+                <th>Nota</th>
+                <th>Estudiantes</th>
+            </tr>
+{
+    (: TODO: ejercicio1 :)
+}
+        </table>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+xquery version "3.1";
+
+<html>
+    <head>
+        <style>
+            table, th, td {{ border: 1px solid black; }}
+        </style>
+    </head>
+    <body>
+{
+    let $ciclo := "DAM"
+    let $curso := "1"
+    return
+        <h1>Rango de notas <br/> de {$ciclo}-{$curso}</h1>
+}
+        <table>
+            <tr>
+                <th>Módulo</th>
+                <th>Min</th>
+                <th>Med</th>
+                <th>Max</th>
+            </tr>
+{
+    (: TODO: ejercicio2 :)
+}
+        </table>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+xquery version "3.1";
+
+<html>
+    <head>
+        <style>
+            table, th, td {{ border: 1px solid black; }}
+        </style>
+    </head>
+    <body>
+{
+    let $siglasModulo := "LMGI"
+    return
+        <h1>Distribución  <br/> notas {$siglasModulo}</h1>
+}
+        <table>
+            <tr>
+                <th>Nota</th>
+                <th>Estudiantes</th>
+            </tr>
+{
+    let $siglasModulo := "LMGI"
+    let $idModulos := data(doc("/db/exam23/modulos.xml")//modulo[siglas=$siglasModulo]/@id)
+    for $nota in doc("/db/exam23/notas.xml")//nota
+    let $valor := data($nota/valor)
+    where data($nota/idModulo) = $idModulos
+    group by $valor
+    let $n := count($nota)
+    order by $valor
+    return 
+            <tr>
+                <td>{$valor}</td>
+                <td>{$n}</td>
+            </tr>
+}
+        </table>
+    </body>
+</html>
